@@ -39,6 +39,8 @@
     // Optional object with parameters passed to the YouTube video player:
     // https://developers.google.com/youtube/player_parameters
     youTubePlayerVars: {
+      rel: 0,
+      showinfo: 0,
       wmode: 'transparent'
     },
     // Require a click on the native YouTube player for the initial playback:
